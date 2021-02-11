@@ -1,1 +1,18 @@
+cd ~
+rm -rf Fixperms-whm*
+wget -O Fixperms-whm.zip "https://github.com/ninzahost/Fixperms-whm/raw/main/Fixperms-whm.zip"
+unzip Fixperms-whm.zip
+cd Fixperms-whm
+sh install -install
+cd .. && rm -rf Fixperms-whm*
 
+
+
+
+cd ~
+rm -rf Fixperms-whm*
+wget -O Fixperms-whm.zip "https://github.com/ninzahost/Fixperms-whm/raw/main/Fixperms-whm.zip"
+unzip Fixperms-whm.zip
+cd Fixperms-whm
+sh install -uninstall
+cd .. && rm -rf Fixperms-whm*
